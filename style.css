@@ -52,7 +52,8 @@ hr {
 }
 
 .nav-heading {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    font-size: larger;
     font-weight: bolder;
 }
 
@@ -69,6 +70,7 @@ hr {
     color: white;
     padding: 1rem 0rem;
     border-bottom-left-radius: 1rem;
+    margin-top: -10px;
 }
 
 .link-active {
@@ -77,12 +79,14 @@ hr {
 
 .hero-img {
     width: 500px;
-    margin: 0px 50px;
+    margin: 25px 50px;
 }
 
 .hero-heading {
     text-align: center;
     color: var(--gray-color);
+    word-spacing: 5px;
+    letter-spacing: 5px;
 }
 
 .text-highlighter {
@@ -91,6 +95,8 @@ hr {
 
 .section {
     padding: 2rem 0rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .ow-section {
@@ -103,6 +109,8 @@ hr {
     padding: 2rem 0rem;
     border-top-right-radius: 1rem;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: -10px;
 }
 
 .footer .heading {
@@ -114,6 +122,15 @@ hr {
     padding-inline-start: 0px;
 }
 
+.foot-lists a {
+    color: white;
+}
+
 .sec-center {
     text-align: center;
+}
+
+.project-heading {
+    letter-spacing: 0;
+    word-spacing: 0;
 }
